@@ -1,63 +1,27 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.container1{
-    max-width: 80%;
-    /* background-color: rgb(180, 141, 216); */
-    padding: 34px;
-    margin: auto;
-}
-
-.container1 h1{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h1{
-    font-size: 40px;
-}
-p{
-    font-size: 17px;
-    text-align: center;
-}
-
-.submismsg{
-    color: rgb(4, 49, 4);
-    /* font-size: 25px; */
-}
-
-input, textarea{
-    /* display: block; */
-    width: 80%;
-    margin: 11px auto;
-    font-size: 16px;
-    padding: 7px;
-    border: 2px solid black;
-    border-radius: 6px;
-    outline: none
-}
-
-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.btn{
-    font-size: 20px;
-    padding: 8px 12px;
-    color: wheat;
-    background-color: purple;
-    border: 2px solid white;
-    border-radius: 14px;
-    cursor: pointer;
-}
-.bg{
+html,body{
+    height: 100%;
     width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 8;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    background-color: #000;
+}
+
+
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    background-color: #fff;
 }

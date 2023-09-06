@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>php project</title>
+    <title>Canvas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
-    <img class="bg" src="karn.jpg" alt="IIT khadagpur">
-    <div class="container1">
-        <h1>welcome to the iit khadagpur us trip plan</h1>
-        <p>enter your details and submit your form to conform your participation in a trip</p>
-        <p class="submismsg">thank you for submitting your form, we are happy to see you joinning us for us trip</p>
-
-        <form action="index.php" method="post">
-            <input type="text" name="name" id="name" placeholder="please enter your name:">
-            <input type="text" name="age" id="age" placeholder="please enter your age:">
-            <input type="text" name="gender" id="gender" placeholder="please enter your gendef:">
-            <input type="email" name="email" id="email" placeholder="enter your email">
-            <input type="phone" name="phone" id="phone" placeholder="enter your mobile number">
-            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="enter any other information here"></textarea>
-            <button class="btn">submit</button>
-            <button class="btn">Reset</button>
-        </form>
+    <div id="main">
+        <div id="page"></div>
+        <div id="page1"></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
-   
 </body>
 </html>
